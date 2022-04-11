@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: snowflake_sample_fb_data
+    description: 'Facebook data from Fivetran'
+    database: FIVETRAN_DB
+    schema: HASHMAP_FACEBOOK_PAGES
+
+    tables:
+      - name: DAILY_PAGE_METRICS_BY_ACTION_TYPE
+        description: 'Details about DAILY_PAGE_METRICS_BY_ACTION_TYPE'
+        
