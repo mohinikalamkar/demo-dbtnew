@@ -1,0 +1,20 @@
+
+version: 2
+
+models:
+  - name: example_team_locations
+    description: "A list of IPL teams"
+    columns:
+      - name: name
+        description: "Name of IPL team"
+      
+      - name: city
+        description: "Home city of IPL team"
+      
+      - name: state
+        description: "State of IPL team"
+        tests:
+          - is_mh_team
+          
+
+
